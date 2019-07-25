@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='styles/BookReg.css' rel="stylesheet"  >
+    <link href="style/normalize.css" rel="stylesheet">
+    <title>Victor's Book Registration Database</title>
+    
+
+</head>
+
+<body>
+
+<h1 align='center'>Victor's Book Collection Database</h1>
+    
+
+<header>
+    <div>
+        <ul>
+            <li><a href="BookReg.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</header>
+
+<br><br><br><br>
+ 
+<h2>Featured Books</h2>
+<hr width='1000px'>
+
+<section class="content">
+    <div class="division" >
+        <h3 class="h3">Sci-Fi/Fiction</h3>
+        <img src="" class="img-size-m" alt="">
+        <p class="card-text">Beowulf(translated)</p> <p class="author">by Seamus Heaney </p>
+        
+    </div>
+
+    <div class="division">
+        <h3 class="h3">Tutorial</h3>
+        <img src="" class="img-size-m" alt="">
+            <p>HTML and CSS: Design and build Websites</p> <p class="author"> by Jon Duckett </p>
+        
+    </div>
+
+    <div class="division">
+        <h3 class="h3">Future</h3>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/510Sfu6zZ2L._SX277_BO1,204,203,200_.jpg" class="img-size-m" alt="">
+            <p class="card-text">Ready Player One: A Novel</p> <p class="author"> by Ernest Cline </p>
+    
+</section>
+
+
+
+<br><br><br>
+<hr width="800px">
+
+<br><br>
+
+<fieldset>
+    <legend>Type of cover:</legend>
+        <p>
+            <input type='radio' name="cover">
+            <label for="PB">Paperback</label><br />
+            
+            <input type='radio' name="cover">
+            <label for='hard'>Hardcover</label><br />
+        
+            <input type="radio" name="cover">
+            <label for="jacket">Dust Jacket</label>
+        </p>
+
+</fieldset> 
+
+<br><br><br>
+
+<p>Please choose a genre:
+
+    <select name="genre">
+    
+        <option value="Sci-Fi/Fiction">Sci-Fi/Fiction</option>
+        <option value="Romance">Romance</option>
+        <option value="Thriller">Thriller</option>
+        <option value="Mystery">Mystery</option>
+        <option value="Westerns">Westerns</option>
+        <option value="Dystopia">Dystopia</option>
+        <option value="Tutorial">Tutorial</option>
+        <option value="Future">Future</option>
+
+    </select>
+
+</p>
+
+<br><br><br>
+
+<header class="button">
+    <p>Book Name:
+        <input type="text" name="name" minlength="2">
+    </p>
+<br><br>
+    <button type="button" class="btn btn-dark">Submit</button>
+
+</header>
+
+<br><br><br>
+
+
+</body>
+</html>

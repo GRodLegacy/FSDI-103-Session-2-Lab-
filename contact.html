@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles/BookReg.css" rel="stylesheet">
+    <link href="style/normalize.css" rel="stylesheet">
+    
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+<h4> Contact Us </h4>
+
+
+<ul>
+    <li><a href="BookReg.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+</ul>
+
+
+
+ 
+<form action="">
+    
+    <display class="contact">
+        <fieldset class="field">
+            <legend>Contact Information</legend>
+            <label for="name" >Name:</label>
+            <input  type="text" name="name" id="name" placeholder="Your name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Your personal e-mail" required>
+
+            <label for="phone-number">Phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+
+            <label for="number">Age:</label>
+            <input type="number" name="number" min="0" max="100" step="1">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Type your message here"></textarea><br><br>
+        </fieldset>
+    </display>
+
+    <br><br>
+        <fieldset class="field">
+            <legend>Country</legend>
+            <label for="options">Please choose one: </label>
+            <select id="options">
+                <option value="" disabled select> --- Select --- </option>
+                <option value="USA">United States of America</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </fieldset>
+    <br><br>
+        <fieldset class="field">
+            <legend>How do you prefer to be contacted?</legend>
+            <label for="phone">Phone</label>
+            <input type="radio" name="contact" value="phone" id="phone">
+
+            <label for="email">E-mail</label>
+            <input type="radio" name="email" value="email" id="email">
+        
+            <p2>If you select phone, please select a date and time.</p2>
+            <label>Date:</label>
+            <input type="date" name="date" id="date">
+
+            <label for="hour">Time:</label>
+            <input type="time" name="hour" id="hour" min="09:00" max="18:00">
+        </fieldset>
+<br>
+        <input type="submit" name="send" class="btn">
+
+    </form>
+<br><br>
+
+<footer class="end">
+        <ul>
+            <li><a href="BookReg.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+</footer>
+    
+</body>
+
+</html>
